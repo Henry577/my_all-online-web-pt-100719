@@ -7,8 +7,7 @@ def my_all?(collection)
   
   while i < collection.length
   
-    blovk_return_values <<
-    yield(collection[i])
+    blovk_return_values << yield(collection[i])
     i += 1
     
   end
